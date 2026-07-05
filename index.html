@@ -3,10 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Y-FETISH | О нас</title>
 
-<title>Y-FETISH</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
-<link rel="stylesheet" href="style.css">
+body{
+background:#111;
+color:#fff;
+}
+
+header{
+height:70px;
+background:#181818;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 30px;
+border-bottom:1px solid #333;
+}
+
+.logo{
+font-size:34px;
+font-weight:bold;
+}
+
+.logo span{
+color:#ff3b30;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:25px;
+font-size:17px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ff3b30;
+}
+
+.hero{
+height:320px;
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1600");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:20px;
+color:#ddd;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:50px auto;
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:30px;
+}
+
+.card{
+background:#1d1d1d;
+padding:30px;
+border-radius:18px;
+}
+
+.card h2{
+color:#ff3b30;
+margin-bottom:20px;
+}
+
+.card p{
+line-height:1.8;
+color:#ccc;
+font-size:17px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.box{
+background:#222;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.box h3{
+font-size:36px;
+color:#ff3b30;
+}
+
+.box p{
+margin-top:10px;
+color:#bbb;
+}
+
+footer{
+margin-top:50px;
+background:#181818;
+padding:25px;
+text-align:center;
+color:#888;
+border-top:1px solid #333;
+}
+</style>
+
 </head>
 
 <body>
@@ -14,190 +137,89 @@
 <header>
 
 <div class="logo">
-    <a href="in.html" class="logo-link">
-        <span class="red">Y</span>-FETISH
-    </a>
-
-
+<span>Y</span>-FETISH
 </div>
 
-
-
-  <div class="search">
-    <input type="text" placeholder="Поиск видео...">
-    <button>🔍</button>
-  </div>
-
-  <a href="upload.html" class="upload-btn">➕ Добавить видео</a>
+<nav>
+<a href="index.html">Главная</a>
+<a href="about.html">О нас</a>
+<a href="#">Контакты</a>
+</nav>
 
 </header>
 
-<main>
+<section class="hero">
 
-<section class="player">
+<div>
 
-  <video id="video" controls poster="poster.jpg">
-    <source src="videos/1.mp4" type="video/mp4">
-    Ваш браузер не поддерживает видео.
-  </video>
+<h1>Добро пожаловать в Y-FETISH</h1>
 
-  <div class="controls">
-    <button>▶️</button>
-    <button>⏸️</button>
-    <button>🔊</button>
-    <button>⛶</button>
-  </div>
+<p>Современная видеоплатформа с удобным интерфейсом.</p>
 
-  <div class="info">
-    <h1>Две русской Госпожи, заставляют рабыню, нюхать им потные носки.</h1>
-
-    <div class="stats">
-      <span>👁 1523</span>
-      <span>•</span>
-      <span>12 минут</span>
-      <span>•</span>
-      <span>Сегодня</span>
-    </div>
-  </div>
-
-  <div class="buttons">
-    <button>👍 <span>352</span></button>
-    <button>👎 <span>18</span></button>
-  </div>
-
-  <div class="description">
-    <h3>Описание</h3>
-    <p>
-      Две русской Госпожи, заставляют рабыню, нюхать им потные носки.
-    </p>
-  </div>
+</div>
 
 </section>
 
-<aside>
+<div class="container">
 
-  <h2>Следующие видео</h2>
+<div class="card">
 
-  <div class="card">
-    <video muted>
-      <source src="videos/1.mp4" type="video/mp4">
-    </video>
-    <h3>Первое видео</h3>
-    <p>12 000 просмотров</p>
-  </div>
+<h2>О платформе</h2>
 
-  <div class="card">
-    <video muted>
-      <source src="videos/2.mp4" type="video/mp4">
-    </video>
-    <h3>Второе видео</h3>
-    <p>8 200 просмотров</p>
-  </div>
+<p>
 
-  <div class="card">
-    <video muted>
-      <source src="videos/3.mp4" type="video/mp4">
-    </video>
-    <h3>Третье видео</h3>
-    <p>3 100 просмотров</p>
-  </div>
-  
-  <div class="card">
-    <video muted>
-      <source src="videos/4.mp4" type="video/mp4">
-    </video>
-    <h3>Третье видео</h3>
-    <p>3 100 просмотров</p>
-  </div>
-  
-    <div class="card">
-    <video muted>
-      <source src="videos/5.mp4" type="video/mp4">
-    </video>
-    <h3>Первое видео</h3>
-    <p>12 000 просмотров</p>
-  </div>
+Y-FETISH — это современная видеоплатформа для заработка на эфирах
+а так же у нас можно смотреть любые видео на свой вкус и фетиш..
 
-  <div class="card">
-    <video muted>
-      <source src="videos/6.mp4" type="video/mp4">
-    </video>
-    <h3>Второе видео</h3>
-    <p>8 200 просмотров</p>
-  </div>
+</p>
 
-  <div class="card">
-    <video muted>
-      <source src="videos/7.mp4" type="video/mp4">
-    </video>
-    <h3>Третье видео</h3>
-    <p>3 100 просмотров</p>
-  </div>
-  
-  <div class="card">
-    <video muted>
-      <source src="videos/8.mp4" type="video/mp4">
-    </video>
-    <h3>Третье видео</h3>
-    <p>3 100 просмотров</p>
-  </div>
-  
-    <div class="card">
-    <video muted>
-      <source src="videos/9.mp4" type="video/mp4">
-    </video>
-    <h3>Третье видео</h3>
-    <p>3 100 просмотров</p>
-  </div>
-  
-    <div class="card">
-    <video muted>
-      <source src="videos/10.mp4" type="video/mp4">
-    </video>
-    <h3>Первое видео</h3>
-    <p>12 000 просмотров</p>
-  </div>
+<br>
 
-  <div class="card">
-    <video muted>
-      <source src="videos/11.mp4" type="video/mp4">
-    </video>
-    <h3>Второе видео</h3>
-    <p>8 200 просмотров</p>
-  </div>
+<p>
 
-  <div class="card">
-    <video muted>
-      <source src="videos/12.mp4" type="video/mp4">
-    </video>
-    <h3>Третье видео</h3>
-    <p>3 100 просмотров</p>
-  </div>
-  
-  <div class="card">
-    <video muted>
-      <source src="videos/13.mp4" type="video/mp4">
-    </video>
-    <h3>Третье видео</h3>
-    <p>3 100 просмотров</p>
-  </div>
-  
+Мы стремимся сделать просмотр видео максимально удобным,
+добавляя красивые страницы, быстрый поиск,
+категории, личный кабинет пользователей и систему загрузки видео.
 
-</aside>
-</main>
+</p>
 
-<div class="categories">
-    <a href="index.html" class="active">Foot Fetish</a>
-    <a href="index.html">О НАС</a>
-    <a href="indexs.html">Поиск Госпожи</a>
+<br>
+
+<p>
+
+Платформа постоянно развивается, появляются новые функции,
+улучшается скорость работы и дизайн интерфейса.
+
+</p>
+
 </div>
-<script>
-function toggleMenu() {
-    document.getElementById("sideMenu").classList.toggle("open");
-}
-</script>
 
-<script src="video.js"></script>
-<script src="script.js"></script>
+<div class="stats">
+
+<div class="box">
+<h3>1000+</h3>
+<p>Видео</p>
+</div>
+
+<div class="box">
+<h3>500+</h3>
+<p>Пользователей</p>
+</div>
+
+<div class="box">
+<h3>24/7</h3>
+<p>Доступ к платформе</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Y-FETISH. Все права защищены.
+
+</footer>
+
 </body>
 </html>
